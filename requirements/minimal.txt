@@ -1,0 +1,2 @@
+# place minimal runtime requirements here
+redis>=5.0.1,<5.1

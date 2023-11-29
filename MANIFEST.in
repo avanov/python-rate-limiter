@@ -1,0 +1,9 @@
+# https://docs.python.org/3/distutils/sourcedist.html#manifest
+include README.rst CHANGES.txt LICENSE
+# include requirement files, except those required for tests
+recursive-include requirements *.txt
+exclude requirements/test.txt
+# include project modules
+recursive-include rate_limiter
+# remove tests from the distribution to shrink artifact size
+prune tests

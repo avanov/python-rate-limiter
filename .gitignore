@@ -1,0 +1,25 @@
+.DS_Store
+.[oa]
+*~
+.py[co]
+__pycache__
+.idea/
+.local/
+.mypy_cache/
+.pytest_cache/
+.venv*
+.hypothesis/
+
+build/
+dist/
+*.egg-info/
+
+docs/_build
+
+# Ignore all test-related files (see setup.py -> setup(tests_require=[]))
+*coverage*
+# but keep the .coveragerc (for TravisCI/Coveralls services)
+!.coveragerc
+
+# Ignore vagrant box meta files
+.vagrant/

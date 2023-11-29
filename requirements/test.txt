@@ -1,0 +1,9 @@
+# test requirements
+-r ./minimal.txt
+pytest>=7.1,<7.3
+coverage>=6.4,<7.3
+coveralls>=3.3,<3.4
+pytest-cov>=3.0,<4.1
+hypothesis>=6.88.1,<6.89
+mypy==1.6.1
+black>=23.10.1,<23.11
