@@ -1,4 +1,6 @@
-from .definitions import IState, RedisState, ProcessState, RateLimiter, Request
+from .definitions import IState, RateLimiter, Request
+from .in_memory import ProcessState
+from .in_redis import RedisState
 from .service import is_limit_reached
 
 
